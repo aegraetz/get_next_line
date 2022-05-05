@@ -43,7 +43,7 @@ static char	*extract(char *line)
 	{
 		return (NULL);
 	}
-	*remainder = ft_substr(line, a + 1, ft_strlen(line)- a);
+	remainder = ft_substr(line, a + 1, ft_strlen(line)- a);
 	if (*remainder == '\0')
 	{
 		free(remainder);
